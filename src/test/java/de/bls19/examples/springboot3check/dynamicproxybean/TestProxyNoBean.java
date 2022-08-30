@@ -38,6 +38,7 @@ public class TestProxyNoBean {
   @Test
   @Order(20)
   public void testUnspecializedProxy() {
+
     UUID uuid = UUID.randomUUID();
 
     MyServiceIF myService = (MyServiceIF) Proxy.newProxyInstance(
