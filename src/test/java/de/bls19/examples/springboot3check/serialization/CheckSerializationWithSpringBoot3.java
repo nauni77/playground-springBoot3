@@ -1,6 +1,7 @@
 package de.bls19.examples.springboot3check.serialization;
 
 import de.bls19.examples.springboot3check.mockito.TestConfiguration;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
@@ -20,6 +21,7 @@ import java.util.Date;
 @ComponentScan(basePackageClasses = TestConfiguration.class)
 @ActiveProfiles("test")
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@Slf4j
 public class CheckSerializationWithSpringBoot3 {
 
   /**

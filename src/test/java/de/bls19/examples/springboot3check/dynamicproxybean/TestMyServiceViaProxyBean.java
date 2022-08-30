@@ -1,6 +1,7 @@
 package de.bls19.examples.springboot3check.dynamicproxybean;
 
 import de.bls19.examples.springboot3check.dynamicproxybean.myservice.MyServiceIF;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,6 +14,7 @@ import java.util.UUID;
 @SpringBootTest
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @ActiveProfiles("test")
+@Slf4j
 public class TestMyServiceViaProxyBean {
 
   @Autowired
