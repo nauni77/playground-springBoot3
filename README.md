@@ -23,18 +23,21 @@ How can I register a dynamic java proxy as a bean. Or in other ways how can I re
 
 Some simple mockito tests at `java/de/bls19/examples/springboot3check/mockito` - just to explain how it works and show that it works with SpringBoot3.
 
+This test runs without a container. This class contains the configuration of the test: `java/de/bls19/examples/springboot3check/configuration`.
+
 ## serialization
 
 Just to make sure the serialization class is still included in SpringBoot3.
 
 `java/de/bls19/examples/springboot3check/serialization`
 
-## test configuration
-
-Check how it works to run a test without web container. See: `java/de/bls19/examples/springboot3check/configuration`.
-
 ## application tests
 
 Check if the Tests work with SpringBootTest annotation - running the complete container.
 
 `java/de/bls19/examples/springboot3check/applicationtests`
+
+## test values
+
+Check howto get the values from `application.properties`, environment, etc. ... see:
+`java/de/bls19/examples/springboot3check/values`

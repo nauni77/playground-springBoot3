@@ -1,6 +1,6 @@
 package de.bls19.examples.springboot3check.serialization;
 
-import de.bls19.examples.springboot3check.configuration.TestConfiguration;
+import de.bls19.examples.springboot3check.mockito.TestConfiguration;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
